@@ -7,7 +7,7 @@ const HeroContent = (props) => {
   const [size, setSize] = useState(props.size || "");
 
   return (
-    <div className="flex flex-col px-4 pt-4 pb-6 border-[1px] border-light gap-6">
+    <div className="flex flex-col px-4 pt-4 pb-4 border-[1px] border-light gap-6">
       <Image src={image} alt={title} className="h-[201px] w-[261.33px]" />
       <div className="flex flex-col gap-2">
         <p className="font-bold text-xl leading-6">{title}</p>
